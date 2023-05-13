@@ -1,0 +1,66 @@
+#about{
+   background-color: #22315a;
+   background-image: url('https://gifs.eco.br/wp-content/uploads/2022/11/gifs-sobre-meio-ambiente-0.gif');
+   background-repeat: no-repeat;
+   background-position: center;
+    width: 100vw;
+    height: 91vh;
+    color: #7FA14E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+p{
+    text-align: center;
+}
+.tituloAbout{
+    padding-top: 35px;
+}
+.color{
+    color: #7FA14E;
+    text-shadow: none;
+}
+
+li{
+    list-style: none;
+    color: #7FA14E;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+
+}
+
+.titulo{
+    text-shadow: 1px 1px 3px black;
+}
+.doc{
+    padding-top: 85px;
+}
+
+@media (min-width: 700px)
+{   
+    #about{
+        background-size: contain;
+        height: 91vh;
+        background-position: 100%;
+        align-items: self-start;
+     }
+     p{
+         text-align: center;
+         font-size: 24px;
+     }
+     .tituloAbout{
+         padding-top: 80px;
+         font-size: 34px;
+     }
+     li{
+        font-size: 30px;
+     }
+     
+     .titulo{
+         font-size: 34px;
+     }
+     .doc{
+         padding-top: 15vh;
+         font-size: 30px;
+     }
+}

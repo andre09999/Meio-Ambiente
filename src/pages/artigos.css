@@ -1,0 +1,37 @@
+.linkArtigos{
+    color: white;;
+    text-shadow: 1px 1px 8px black;
+    padding-top: 55vh;
+    left: 5%;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+    transition: 2s;
+}
+.linkArtigos:hover{
+    color: #0cefff ;
+}
+#artigos{
+    background-color: #7BA972;
+    background-image: url('./img/image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+@media (min-width: 700px)
+{
+    #artigos{
+        height: 91vh;
+    }
+    .linkArtigos{
+        font-size: 42px;
+    }
+}
+

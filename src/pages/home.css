@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#home{
+    background-image: url('../../meio-ambiente/sobre.jpg');
+    background-position-x: 25%;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 91vh;
+    color: #011947;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.tituloHome{
+    padding-top: 20%;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 7px rgb(255, 255, 255);
+}
+
+h2{
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 1px 1px 7px rgb(255, 255, 255);
+}
+
+.subTIuloHome{
+    padding-top: 40%;
+}
+h3{
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 7px black;
+}
+
+@media (min-width: 700px)
+{
+    
+#home{
+    background-image: url('../../meio-ambiente/sobre.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 91vh;
+    color: #011947;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.tituloHome{
+    padding-top: 12%;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+.subTIuloHome{
+    padding-top: 5%;
+}
+h3{
+    font-size: 24px;
+    color: #011947;
+    text-shadow: 1px 1px 7px rgb(255, 255, 255);
+}
+
+}
