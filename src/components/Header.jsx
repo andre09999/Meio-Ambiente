@@ -1,4 +1,5 @@
 import './header.css';
+import { Link} from 'react-router-dom';
 import Logo from './imagesHeader/logFasam.png'
 
 function Header() {
@@ -6,9 +7,9 @@ function Header() {
     <header>
     <img src={Logo} alt='logo fasam'/>
     <nav>
-    <a href='/home'>Home</a>
-    <a href='/about'>Quem somos</a>
-    <a href='/artigos'>Artigos</a>
+    <Link to='/home'>Home</Link>
+    <Link to='/about'>Quem somos</Link>
+    <Link to='/artigos'>Artigos</Link>
     </nav>
     </header>
   );
