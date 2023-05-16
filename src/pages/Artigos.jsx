@@ -1,5 +1,5 @@
 import './artigos.css';
-import arquivo from './arquivos/FOLDER.pdf'
+import arquivo from './arquivos/RESUMO TRABALHO DE EXTENSÃO.pdf'
 
 function Artigos() {
   return (
