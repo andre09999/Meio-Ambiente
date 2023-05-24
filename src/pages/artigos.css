@@ -8,6 +8,18 @@
     text-align: center;
     transition: 2s;
 }
+.linkArtigo{
+    color: white;;
+    text-shadow: 1px 1px 8px black;
+    left: 5%;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+    transition: 2s;
+}
+.linkArtigo:hover{
+    color: #0cefff ;
+}
 .linkArtigos:hover{
     color: #0cefff ;
 }
