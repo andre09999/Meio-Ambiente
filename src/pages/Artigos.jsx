@@ -1,5 +1,4 @@
 import './artigos.css';
-import arquivo from './arquivos/RESUMO TRABALHO DE EXTENSÃO.pdf'
 import folder from './arquivos/novo11_merged.pdf'
 
 function Artigos() {
