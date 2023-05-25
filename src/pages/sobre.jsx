@@ -7,11 +7,13 @@ function About() {
      <p >Acadêmicos do Bacharel em Direito, concluindo o 10° período, na instituição Unifasam.</p>
     <h2 className='titulo'>Grupo constituido por:</h2>
     <ul>
+      <li>Alberto bosco</li>
       <li>André Alves de Souza</li>
       <li>Deth Lefsen Evangelista Oliveira e Silva</li>
       <li>Larah Atena de Souza e Castro </li>
       <li>Paulo Henrique Alves de Araújo</li>
       <li>Rafael Bispo </li>
+      
       <li>Selma Pereira da Silva </li>
     </ul>
     <h2 className='titulo doc'>Docente: </h2>
